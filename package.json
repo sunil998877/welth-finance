@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    
+    "engines": {
+      "npm": "9.x"
+    },
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
@@ -55,6 +57,4 @@
     "react-email": "^5.2.5",
     "tailwindcss": "^3.4.1"
   }
-  
-
 }
